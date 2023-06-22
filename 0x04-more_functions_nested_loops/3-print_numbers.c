@@ -5,14 +5,17 @@
  * Return: 0-9 followed by newline
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 
 {
-	int x;
+	int i;
 
-	for (x = 0; i <= 9; x++)
+	for (i = 0; i <= 9; i++)
 	{
-	_putchar(x + '0');
+	if ((i == 2) || (i ==4))
+	continue;
+	else
+	_putchar(i + '0');
 	}
 	_putchar('\n');
 }
