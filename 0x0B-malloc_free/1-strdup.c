@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup - check the code for Holberton School students.
+ * _strdup - 
  * @str: argument for array
  * Return: Always 0.
  */
