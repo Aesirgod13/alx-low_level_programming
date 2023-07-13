@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-char *_memset(char *s, char b, unsigned int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	return memset(s, b, n);
+	return strncat(dest, src, n);
 }

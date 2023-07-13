@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-char *_memset(char *s, char b, unsigned int n)
+char *_strstr(char *haystack, char *needle)
 {
-	return memset(s, b, n);
+	return strstr(haystack, needle);
 }
